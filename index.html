@@ -1,26 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Website</title>
-    <style>
-        body {
-            background-color: #fff0f5;
-            text-align: center;
-            font-family: Arial;
-        }
+  <title>My First Website</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: Arial;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
 
-        h1 {
-            color: #8e44ad;
-        }
+    .navbar {
+      background-color: #8e44ad;
+      overflow: hidden;
+      padding: 10px 0;
+    }
 
-        p {
-            color: #34495e;
-        }
-    </style>
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .navbar a:hover {
+      background-color: #6c3483;
+    }
+
+    .content {
+      padding: 40px;
+    }
+
+    h1 {
+      color: #8e44ad;
+    }
+
+    p {
+      color: #34495e;
+    }
+  </style>
 </head>
 <body>
+
+  <!-- 👇 Paste this navbar here 👇 -->
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div class="content">
     <h1>Welcome to My Website</h1>
     <p>This is my first practice webpage hosted on GitHub.</p>
+  </div>
+
 </body>
 </html>
 
