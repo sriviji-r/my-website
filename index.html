@@ -1,56 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My First Website</title>
   <style>
-    body {
-      background-color: #fff0f5;
-      font-family: Arial;
+    * {
       margin: 0;
       padding: 0;
-      text-align: center;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fce4ec;
     }
 
     .navbar {
-      background-color: #8e44ad;
-      overflow: hidden;
-      padding: 10px 0;
+      background-color: #9b59b6;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    .navbar a {
+    .navbar h2 {
       color: white;
-      padding: 14px 20px;
+    }
+
+    .nav-links a {
+      color: white;
       text-decoration: none;
+      margin-left: 20px;
       font-weight: bold;
     }
 
-    .navbar a:hover {
-      background-color: #6c3483;
+    .nav-links a:hover {
+      text-decoration: underline;
     }
 
-    .content {
-      padding: 40px;
+    .main-content {
+      padding: 60px 20px;
+      text-align: center;
     }
 
-    h1 {
-      color: #8e44ad;
+    .main-content h1 {
+      color: #6a1b9a;
+      font-size: 36px;
     }
 
-    p {
-      color: #34495e;
+    .main-content p {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #4a4a4a;
     }
   </style>
 </head>
 <body>
 
-  <!-- 👇 Paste this navbar here 👇 -->
   <div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <h2>MyWebsite</h2>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </div>
   </div>
 
-  <div class="content">
+  <div class="main-content">
     <h1>Welcome to My Website</h1>
     <p>This is my first practice webpage hosted on GitHub.</p>
   </div>
